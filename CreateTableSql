@@ -1,0 +1,30 @@
+CREATE TABLE CUSTOMERS
+(
+  ID BIGINT PRIMARY KEY NOT NULL IDENTITY,
+  FIRST_NAME VARCHAR(45),
+  LAST_NAME VARCHAR(45),
+  PATRONYMIC VARCHAR(45),
+  TELEPHONE_NUMBER BIGINT
+);
+INSERT INTO customers(ID,first_name,last_name,patronymic, telephone_number) VALUES(NULL ,NULL ,NULL ,NULL ,NULL );
+INSERT INTO customers(ID,first_name,last_name,patronymic, telephone_number) VALUES(NULL ,NULL ,NULL ,NULL ,NULL );
+INSERT INTO customers(ID,first_name,last_name,patronymic, telephone_number) VALUES(NULL ,NULL ,NULL ,NULL ,NULL );
+INSERT INTO customers(ID,first_name,last_name,patronymic, telephone_number) VALUES(NULL ,NULL ,NULL ,NULL ,NULL );
+INSERT INTO customers(ID,first_name,last_name,patronymic, telephone_number) VALUES(NULL ,NULL ,NULL ,NULL ,NULL );
+INSERT INTO customers(ID,first_name,last_name,patronymic, telephone_number) VALUES(NULL ,NULL ,NULL ,NULL ,NULL );
+CREATE TABLE ORDER_CUSTOMERS
+(
+  ID_ORDER BIGINT PRIMARY KEY NOT NULL IDENTITY,
+  DESCRIPTION VARCHAR(255),
+  CLIENT_ORDER VARCHAR(45),
+  DATE_CREATION VARCHAR(45),
+  DATE_COMPLETE VARCHAR(45),
+  PRICE BIGINT,
+  STATUS VARCHAR(45)
+);
+INSERT INTO order_customers(ID_ORDER,description, client_order, date_creation, date_complete ,price,status) VALUES(NULL ,NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO order_customers(ID_ORDER,description, client_order, date_creation, date_complete ,price,status) VALUES(NULL ,NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO order_customers(ID_ORDER,description, client_order, date_creation, date_complete ,price,status) VALUES(NULL ,NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO order_customers(ID_ORDER,description, client_order, date_creation, date_complete ,price,status) VALUES(NULL ,NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO order_customers(ID_ORDER,description, client_order, date_creation, date_complete ,price,status) VALUES(NULL ,NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO order_customers(ID_ORDER,description, client_order, date_creation, date_complete ,price,status) VALUES(NULL ,NULL, NULL, NULL, NULL, NULL, NULL);
